@@ -54,7 +54,7 @@
                       <Component id="textBienvenido" alignment="1" min="-2" pref="148" max="-2" attributes="0"/>
                       <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jLabel1" min="-2" pref="63" max="-2" attributes="0"/>
+                              <Component id="textPassw" min="-2" pref="63" max="-2" attributes="0"/>
                               <Component id="textUsuario" min="-2" pref="63" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -66,7 +66,7 @@
                   </Group>
                   <EmptySpace pref="177" max="32767" attributes="0"/>
               </Group>
-              <Component id="jLabel2" alignment="0" max="32767" attributes="0"/>
+              <Component id="textCopyright" alignment="0" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -81,11 +81,11 @@
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textPassw" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="ingresarPassw" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="130" max="32767" attributes="0"/>
-                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="textCopyright" min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -110,7 +110,7 @@
         </Component>
         <Component class="javax.swing.JTextField" name="ingresarUsuario">
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel1">
+        <Component class="javax.swing.JLabel" name="textPassw">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Arial" size="14" style="1"/>
@@ -123,9 +123,9 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ingresarPasswActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="textCopyright">
           <Properties>
-            <Property name="text" type="java.lang.String" value="copyright"/>
+            <Property name="text" type="java.lang.String" value="Prohibido su reproducci&#xf3;n derechos reservados Copyright"/>
           </Properties>
         </Component>
       </SubComponents>

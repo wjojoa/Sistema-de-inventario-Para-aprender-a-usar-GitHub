@@ -24,9 +24,9 @@ public class LoginUsuario extends javax.swing.JFrame {
         textBienvenido = new javax.swing.JLabel();
         textUsuario = new javax.swing.JLabel();
         ingresarUsuario = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
+        textPassw = new javax.swing.JLabel();
         ingresarPassw = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
+        textCopyright = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -40,8 +40,8 @@ public class LoginUsuario extends javax.swing.JFrame {
         textUsuario.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         textUsuario.setText("Usuario");
 
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel1.setText("Clave");
+        textPassw.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        textPassw.setText("Clave");
 
         ingresarPassw.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -49,7 +49,7 @@ public class LoginUsuario extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setText("copyright");
+        textCopyright.setText("Prohibido su reproducción derechos reservados Copyright");
 
         javax.swing.GroupLayout panelAzulLayout = new javax.swing.GroupLayout(panelAzul);
         panelAzul.setLayout(panelAzulLayout);
@@ -61,14 +61,14 @@ public class LoginUsuario extends javax.swing.JFrame {
                     .addComponent(textBienvenido, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelAzulLayout.createSequentialGroup()
                         .addGroup(panelAzulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textPassw, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(textUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelAzulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(ingresarUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, 132, Short.MAX_VALUE)
                             .addComponent(ingresarPassw))))
                 .addContainerGap(177, Short.MAX_VALUE))
-            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(textCopyright, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         panelAzulLayout.setVerticalGroup(
             panelAzulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -81,10 +81,10 @@ public class LoginUsuario extends javax.swing.JFrame {
                     .addComponent(ingresarUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panelAzulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
+                    .addComponent(textPassw)
                     .addComponent(ingresarPassw, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 130, Short.MAX_VALUE)
-                .addComponent(jLabel2))
+                .addComponent(textCopyright))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -144,10 +144,10 @@ public class LoginUsuario extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField ingresarPassw;
     private javax.swing.JTextField ingresarUsuario;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel panelAzul;
     private javax.swing.JLabel textBienvenido;
+    private javax.swing.JLabel textCopyright;
+    private javax.swing.JLabel textPassw;
     private javax.swing.JLabel textUsuario;
     // End of variables declaration//GEN-END:variables
 }
