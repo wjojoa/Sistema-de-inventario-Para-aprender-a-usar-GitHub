@@ -26,6 +26,7 @@ public class LoginUsuario extends javax.swing.JFrame {
         ingresarUsuario = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         ingresarPassw = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -48,6 +49,8 @@ public class LoginUsuario extends javax.swing.JFrame {
             }
         });
 
+        jLabel2.setText("copyright");
+
         javax.swing.GroupLayout panelAzulLayout = new javax.swing.GroupLayout(panelAzul);
         panelAzul.setLayout(panelAzulLayout);
         panelAzulLayout.setHorizontalGroup(
@@ -65,6 +68,7 @@ public class LoginUsuario extends javax.swing.JFrame {
                             .addComponent(ingresarUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, 132, Short.MAX_VALUE)
                             .addComponent(ingresarPassw))))
                 .addContainerGap(177, Short.MAX_VALUE))
+            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         panelAzulLayout.setVerticalGroup(
             panelAzulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -79,7 +83,8 @@ public class LoginUsuario extends javax.swing.JFrame {
                 .addGroup(panelAzulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(ingresarPassw, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(146, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 130, Short.MAX_VALUE)
+                .addComponent(jLabel2))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -140,6 +145,7 @@ public class LoginUsuario extends javax.swing.JFrame {
     private javax.swing.JTextField ingresarPassw;
     private javax.swing.JTextField ingresarUsuario;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel panelAzul;
     private javax.swing.JLabel textBienvenido;
     private javax.swing.JLabel textUsuario;
